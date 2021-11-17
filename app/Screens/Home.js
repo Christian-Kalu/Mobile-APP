@@ -27,8 +27,8 @@ function Home(props) {
   const Card = ({Hair}) => {
     return (
       <TouchableOpacity>
-        <View style={styles.card}>
-      <View style={{alignItems:"flex-end"}}>
+        <View style={styles.card} >
+      <View style={{alignItems:"flex-end"}} >
         <View style={{width:30,height:30,borderRadius:15,alignItems:"center",justifyContent:"center",
         backgroundColor: Hair.like ? "rgba(245,42,42,0.2)":"rgba(0,0,0,0.2)",}}>
           <Entypo name="heart-outlined" size={18} color={Hair.like ? "red" : "black"} />

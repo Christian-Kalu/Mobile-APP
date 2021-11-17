@@ -88,7 +88,7 @@ const navigation = props.navigation
         
     );
 }
-
+// worked
 const styles = StyleSheet.create({
     container:{
         backgroundColor:"black",

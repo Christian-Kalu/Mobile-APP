@@ -10,7 +10,7 @@ const navigation = props.navigation
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.imageContainer}>
-                    <Image style={styles.logoImage} resizeMode="contain" source={require("../assets/Logo2.png")}/>
+                    <Image style={styles.logoImage} resizeMode="contain" source={require("../assets/ppp.jpg")}/>
                 </View>
             </SafeAreaView>
 
@@ -139,10 +139,12 @@ const styles = StyleSheet.create({
     },
     footer: {
         flex: Platform.OS === 'ios' ? 3 : 5,
-        backgroundColor:"#F9F7F7",
+        backgroundColor:"#d1b4b2",
         paddingHorizontal: 20,
         paddingTop:60,
         width:"100%",
+        borderTopLeftRadius: 130,
+        // borderTopRightRadius: 50,
     },
 
     text_footer:{

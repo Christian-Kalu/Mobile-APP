@@ -9,7 +9,7 @@ const width = Dimensions.get('screen').width / 2 - 30;
 function Home(props) {
 
         // category
-  const categories= ["HOME","FRONTAL","CLOSURE","TOOLS"];
+  const categories= ["HOME","HOME-UTENSILS","ELECTRICALS",];
   const [categoryIndex,setCategoryIndex] = React.useState(0);
 
   const CategoriesList = () =>{
@@ -73,7 +73,7 @@ function Home(props) {
             <TouchableOpacity>
                 <Ionicons name="ios-menu-outline" size={24} color="black" />
             </TouchableOpacity>
-        <Image style={styles.logoUp} source={require("../assets/logoW.jpg")}/>
+        {/* <Image style={styles.logoUp} source={require("../assets/logoW.jpg")}/> */}
         <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
             <TouchableOpacity>
                 <FontAwesome name="shopping-bag" size={20} color="black" />

@@ -1,52 +1,52 @@
 const Hairs = [
     {
       "id": 1,
-      "name": 'Frontals',
+      "name": 'Spatula',
       "price": '39.99',
       "like": true,
-      "img": require('../assets/ff2.jpg'),
+      "img": require('../assets/ppp.jpg'),
       "about":'long'
     },
   
     {
       "id": 2,
-      "name": 'Orange wig',
+      "name": 'Cooking port',
       "price": '29.99',
       "like": false,
-      "img": require('../assets/ff1.jpg'),
+      "img": require('../assets/pp.jpg'),
       "about":'long'
     },
     {
       "id": 3,
-      "name": 'Long Black hair',
+      "name": 'Frying pan',
       "price": '25.99',
       "like": false,
-      "img": require('../assets/ff5.jpg'),
+      "img": require('../assets/dd.jpg'),
       "about":'long'
     },
   
     {
       "id": 4,
-      "name": 'ladies wig',
+      "name": 'Mixers',
       "price": '25.99',
       "like": true,
-      "img": require('../assets/frontals.jpg'),
+      "img": require('../assets/lll.jpg'),
       "about":'long'
     },
     {
       "id": 5,
-      "name": 'Curly hair',
+      "name": 'Utensils',
       "price": '50.99',
       "like": true,
-      "img": require('../assets/frontals2.jpg'),
+      "img": require('../assets/ll.jpg'),
       "about":'long'
     },
     {
       "id": 6,
-      "name": 'white wig',
+      "name": 'Utensils',
       "price": '50.99',
       "like": false,
-      "img": require('../assets/ff3.jpg'),
+      "img": require('../assets/ll.jpg'),
       'about':'long'
     },
   ];
